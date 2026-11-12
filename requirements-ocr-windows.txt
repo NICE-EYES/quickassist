@@ -1,0 +1,9 @@
+# Необязательно: встроенный офлайн-OCR Windows 10/11 (Windows.Media.Ocr) через PyWinRT.
+# Ставится отдельно, чтобы основная установка не зависела от него.
+winrt-runtime>=2.3,<4 ; sys_platform == "win32"
+winrt-Windows.Foundation>=2.3,<4 ; sys_platform == "win32"
+winrt-Windows.Foundation.Collections>=2.3,<4 ; sys_platform == "win32"
+winrt-Windows.Globalization>=2.3,<4 ; sys_platform == "win32"
+winrt-Windows.Graphics.Imaging>=2.3,<4 ; sys_platform == "win32"
+winrt-Windows.Media.Ocr>=2.3,<4 ; sys_platform == "win32"
+winrt-Windows.Storage.Streams>=2.3,<4 ; sys_platform == "win32"

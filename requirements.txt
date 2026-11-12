@@ -1,0 +1,5 @@
+# Основные зависимости QuickAssist (Python 3.10–3.13; рекомендуется 3.12)
+PySide6>=6.7,<7
+anthropic>=2.3,<3          # официальный SDK Anthropic; тянет за собой httpx2
+httpx2>=2.16,<3            # HTTP-клиент для DeepL / LibreTranslate / OpenAI-совместимых API
+keyring>=25,<26            # Диспетчер учётных данных Windows
